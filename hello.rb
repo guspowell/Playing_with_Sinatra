@@ -2,7 +2,7 @@ require 'sinatra'
 
 get '/' do
   "<div style= 'border: 3px dashed red'>
-    <img src ='http://i2.mirror.co.uk/incoming/article99763.ece/alternates/s2197/a-bengal-cat-935179217.jpg'>
+    <img src ='http://bit.ly/1eze8aE'>
   </div>"
 end
 
