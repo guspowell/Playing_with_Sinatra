@@ -1,8 +1,10 @@
 require 'sinatra'
 
 get '/' do
-	erb :index
+	@name = %w(Amigo Oscar Viking).sample
+  erb :index
 end
+
 
 get '/secret' do
   'This is a secret page'
